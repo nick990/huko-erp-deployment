@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "app.fullname" . }}-configmap
+data:
+  greatings: {{ .Values.greatings }}
+  tenant: {{ .Values.tenant }}
+  foo: {{ .Values.foo }}
+  releaseName: {{ .Release.Name }}
+  releaseNamspace: {{ .Release.Namespace }}
+  chartName: {{ .Chart.Name }}

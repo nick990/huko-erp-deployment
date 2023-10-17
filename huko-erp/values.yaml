@@ -1,0 +1,11 @@
+image:
+  repository: "paulbouwer/hello-kubernetes"
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+service:
+  type: ClusterIP
+  port: 8080
+
+foo: default
