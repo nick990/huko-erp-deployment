@@ -37,3 +37,19 @@ App Version: 1.10
     <td>5</td>
   </tr>
 </table>
+
+## 2.1.0
+App Version: 1.10
+<table border="1">
+  <tr>
+    <td colspan="2">foo</td>
+  </tr>
+  <tr>
+    <td><strong>ACME</strong></td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td><strong>Umbrella</strong></td>
+    <td>5</td>
+  </tr>
+</table>
